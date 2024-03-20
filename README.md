@@ -6,5 +6,8 @@ Port scanning is essential in detecting open ports and services on a network. Th
 + Network enumeration.
 + Vulnerability scanning.
 + Enhanced knowledge of network security.
-
+## Resources / Tools / Utilities
++ Virtual lab - pf sense firewall, Kali VM, Ubuntu VM, Windows 10 VM and Metasploitable 3 VM.
++ Windows 10 22H2 Pro
++ Internet Access
   
