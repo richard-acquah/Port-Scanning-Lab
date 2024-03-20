@@ -53,7 +53,7 @@ On the Pentest Tool web interface dashboard, click SCAN WITH TOOL to view availa
 <img width="928" alt="pentest dashboard1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/b24343a3-7b7b-4403-a3b0-46d4f93d17ac">
 <img width="920" alt="tools1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/5e1aec9c-772e-4a7e-b0c7-418a9f1b7bbe">
 
-## port Scanner
+## Port Scanning
 The Port Scanner interface is displayed. The Scanner interface contains important options like scan type, protocol type and target address field. 
 To start scanning a host, enter the host address 45.33.32.156 in the target address field, select Light and TCP in the Scan and Protocol type section respectively, click the agreement checkbox to accept the terms of service and  click Start Scan.
 
