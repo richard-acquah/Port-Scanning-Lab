@@ -52,15 +52,22 @@ On the Pentest Tool web interface dashboard, click SCAN WITH TOOL to view availa
 
 <img width="928" alt="pentest dashboard1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/b24343a3-7b7b-4403-a3b0-46d4f93d17ac">
 <img width="920" alt="tools1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/5e1aec9c-772e-4a7e-b0c7-418a9f1b7bbe">
+
 ## port Scanner
 The Port Scanner interface is displayed. The Scanner interface contains important options like scan type, protocol type and target address field. 
 To start scanning a host, enter the host address 45.33.32.156 in the target address field, select Light and TCP in the Scan and Protocol type section respectively, click the agreement checkbox to accept the terms of service and  click Start Scan.
-The scan begins and progresses.
 
 <img width="1905" alt="port scanning1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/d1744bb1-651b-4981-8ca4-0ff338a7e3dc">
 
+<img width="913" alt="scan details1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/2251e57b-003c-458a-900e-70d7af20489e">
 
+The scan starts and the progress bar loads, the tool uses the TCP SYN scan technique to enumerate the host.
 
+<img width="1896" alt="progress bar1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/ca043ac4-a967-475a-803e-2183f775a447">
 
+The scan result shows ports 22 and 80 open and listening and details the services running on the host. An attacker can leverage this information to infiltrate the host.
 
+<img width="1915" alt="scanning scanme nmap org using ip address1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/a0796354-0a00-424d-a2cb-359db0c08673">
 
+## Conclusion
+Successfully combating cyber threats requires being proactive in figuring out security entry points before adversaries do. Port scanning is effective in discovering loopholes in the network and web applications.
