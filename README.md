@@ -31,6 +31,15 @@ To discover open ports on the discovered hosts, the command ***sudo nmap 192.168
 + The first host is the default gateway with 192.168.10.1 as its IP address. The host has all scanned ports filtered by the firewall except for ports 53, 80 and 443 which allow DNS traffic and web traffic to pass through.
 + The second host is the Ubuntu VM with 192.168.10.3 as its IP address. The host filters all Nmap traffic from accessing any of its ports.
 + The Third host is the Windows 10 VM with 192.168.10.5 as its IP address. It shows three open ports 135, 139 and 445. These vulnerable ports and attackers can be used as entry points and should be disabled when not in use.\
-+ The fourth host is the Metasploitable 3 VM. This VM is made vulnerable intensionally with numerous security flaws. The VM has IP address of 192.168.10.6 and a dozen open ports running various services.
++ The fourth host is the Metasploitable 3 VM. This VM is made vulnerable intensionally with numerous security flaws. The VM has an IP address of 192.168.10.6 and a dozen open ports running various services.
 
   <img width="492" alt="port scan result1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/6244a477-793b-4d7a-8778-33d019a5ff41">
+
+## Operating System Discovery
+To discover the operating system of a host device on the network, the ***-O*** switch is used with the Nmap command. The host with IP 192.168.10.5 is used. An aggressive scan can also be done to discover the host's OS with additional valuable information. The switch ***A*** is used. The OS discovery scan uses probability percentage to guess the OS. The accuracy of the guess is inferred from the probability score. A higher percentage denotes better accuracy.
+***-O*** Switch
+<img width="497" alt="os discovery scan1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/4c9df403-fbc7-4de0-8565-50ae99ba627f">
+***-A*** Switch
+<img width="502" alt="os discovery -A1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/a0feb807-99b1-4e4d-8b46-72359050cabb">
+
+
