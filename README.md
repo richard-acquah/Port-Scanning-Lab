@@ -37,9 +37,24 @@ To discover open ports on the discovered hosts, the command ***sudo nmap 192.168
 
 ## Operating System Discovery
 To discover the operating system of a host device on the network, the ***-O*** switch is used with the Nmap command. The host with IP 192.168.10.5 is used. An aggressive scan can also be done to discover the host's OS with additional valuable information. The switch ***A*** is used. The OS discovery scan uses probability percentage to guess the OS. The accuracy of the guess is inferred from the probability score. A higher percentage denotes better accuracy.
+
 ***-O*** Switch
+
 <img width="497" alt="os discovery scan1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/4c9df403-fbc7-4de0-8565-50ae99ba627f">
+
 ***-A*** Switch
+
 <img width="502" alt="os discovery -A1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/a0feb807-99b1-4e4d-8b46-72359050cabb">
+
+## USING ONLINE PORT SCANNER FOR ENUMERATION
+To perform port scanning using online tools requires internet access. The tool used in this lab is Pentest Tools and it can accessed at https://app.pentest-tools.com.
+On the Pentest Tool web interface dashboard, click SCAN WITH TOOL to view available tools and select Port Scanner.
+
+<img width="928" alt="pentest dashboard1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/b24343a3-7b7b-4403-a3b0-46d4f93d17ac">
+<img width="920" alt="tools1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/5e1aec9c-772e-4a7e-b0c7-418a9f1b7bbe">
+
+The Port Scanner interface is displayed:
+
+
 
 
