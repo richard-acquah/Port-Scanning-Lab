@@ -1,13 +1,13 @@
-# Port-Scanning-Lab
+# Port Scanning with Nmap
 
 ## Objectives
-Port scanning is essential in detecting open ports and services on a network. The labs demonstrate how Nmap is used to map out the network, discover open ports and services and the operating systems of devices on the network. The lab also leverages online scanning tools to perform port scans on a host. The primary focus of this lab is scanning a virtual network and scanme.nmap.org using Nmap and online port scanners.
+Port scanning is essential in detecting open ports and services on a network. The labs demonstrate how Nmap is used to map out the network, discover open ports and services, and the operating systems of devices on the network. The lab also leverages online scanning tools to perform port scans on a host. The primary focus of this lab is scanning a virtual network and scanme.nmap.org using Nmap and online port scanners.
 ## Skills learned
 + Network enumeration.
 + Vulnerability scanning.
 + Enhanced knowledge of network security.
 ## Resources / Tools / Utilities
-+ Virtual lab - pf sense firewall, Kali VM, Ubuntu VM, Windows 10 VM and Metasploitable 3 VM.
++ Virtual lab - pf sense firewall, Kali VM, Ubuntu VM, Windows 10 VM, and Metasploitable 3 VM.
 + Nmap
 + Windows 10 22H2 Pro
 + Internet Access
@@ -29,9 +29,9 @@ The first scan is used to discover hosts on the network 192.168.10.1/24. The com
 
 ## Ports and Services Discovery
 To discover open ports on the discovered hosts, the command ***sudo nmap 192.168.10.1-7***. The command without a specified switch defaults to _SYN port scan_. Again, since the IP addresses of the hosts are known, and the IP range is specified in the command.
-+ The first host is the default gateway with 192.168.10.1 as its IP address. The host has all scanned ports filtered by the firewall except for ports 53, 80 and 443 which allow DNS traffic and web traffic to pass through.
++ The first host is the default gateway with 192.168.10.1 as its IP address. The host has all scanned ports filtered by the firewall except for ports 53, 80, and 443, allowing DNS traffic and web traffic to pass through.
 + The second host is the Ubuntu VM with 192.168.10.3 as its IP address. The host filters all Nmap traffic from accessing any of its ports.
-+ The Third host is the Windows 10 VM with 192.168.10.5 as its IP address. It shows three open ports 135, 139 and 445. These vulnerable ports and attackers can be used as entry points and should be disabled when not in use.\
++ The Third host is the Windows 10 VM with 192.168.10.5 as its IP address. It shows three open ports 135, 139, and 445. These vulnerable ports and attackers can be used as entry points and should be disabled when not in use.\
 + The fourth host is the Metasploitable 3 VM. This VM is made vulnerable intensionally with numerous security flaws. The VM has an IP address of 192.168.10.6 and a dozen open ports running various services.
 
   <img width="492" alt="port scan result1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/6244a477-793b-4d7a-8778-33d019a5ff41">
@@ -55,8 +55,8 @@ On the Pentest Tool web interface dashboard, click SCAN WITH TOOL to view availa
 <img width="920" alt="tools1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/5e1aec9c-772e-4a7e-b0c7-418a9f1b7bbe">
 
 ## Port Scanning
-The Port Scanner interface is displayed. The Scanner interface contains important options like scan type, protocol type and target address field. 
-To start scanning a host, enter the host address 45.33.32.156 in the target address field, select Light and TCP in the Scan and Protocol type section respectively, click the agreement checkbox to accept the terms of service and  click Start Scan.
+The Port Scanner interface is displayed. The Scanner interface contains important options like scan type, protocol type, and target address field. 
+To start scanning a host, enter the host address 45.33.32.156 in the target address field, select Light and TCP in the Scan and Protocol type section respectively, click the agreement checkbox to accept the terms of service, and  click Start Scan.
 
 <img width="1905" alt="port scanning1" src="https://github.com/richard-acquah/Port-Scanning-Lab/assets/136107996/d1744bb1-651b-4981-8ca4-0ff338a7e3dc">
 
